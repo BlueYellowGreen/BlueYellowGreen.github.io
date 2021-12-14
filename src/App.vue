@@ -1,10 +1,43 @@
 <template>
-  <div>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="APP" class="container">
+    <div class="row">
+
+      <div class="col-2">
+        <SideNavBar />
+      </div>
+
+
+      <div class="col-8">
+        <!-- <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link> -->
+        <router-view/>
+      </div>
+
+    </div>
   </div>
-  <router-view/>
 </template>
 
+<script>
+import SideNavBar from '@/components/SideNavBar.vue'
+
+export default {
+  components: {
+    SideNavBar
+  }
+}
+</script>
+
 <style>
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: S-CoreDream-3Light;
+}
+
+::selection { background-color: #20c9968f; }
 </style>
