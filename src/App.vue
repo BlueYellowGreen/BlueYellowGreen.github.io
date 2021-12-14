@@ -1,13 +1,10 @@
 <template>
+  <SideNavBar />
+
   <div id="APP" class="container">
     <div class="row">
 
-      <div class="col-2">
-        <SideNavBar />
-      </div>
-
-
-      <div class="col-8">
+      <div class="offset-2 col-8">
         <!-- <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> -->
         <router-view/>

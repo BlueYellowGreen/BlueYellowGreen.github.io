@@ -3,22 +3,23 @@
 
 		<!-- Side Bar 활성화 버튼 -->
 		<a
+			class="mt-2 ms-3 text-dark"
 			data-bs-toggle="offcanvas"
 			data-bs-target="#offcanvasScrolling"
 			aria-controls="offcanvasScrolling"
 		>
-			<i class="bi-chevron-double-right" style="font-size: 2rem;"/>
+			<!-- <i class="bi-chevron-double-right" style="font-size: 2rem;"/> -->
+			<i class="bi-justify" style="font-size: 2rem;"/>
 		</a>
 
 		<!-- Side Bar -->
 		<div
-			class="offcanvas offcanvas-start"
+			class="offcanvas offcanvas-start show"
 			data-bs-scroll="true"
 			data-bs-backdrop="false"
 			tabindex="-1"
 			id="offcanvasScrolling"
 			aria-labelledby="offcanvasScrollingLabel"
-			style=""
 		>
 			<!-- Header Title -->
 			<div class="offcanvas-header">
@@ -62,7 +63,7 @@ export default {
 <style scoped>
 a {
 	position: fixed;
-	margin-top: 20%;
+	/* margin-top: 20%; */
 }
 
 a:hover {
@@ -83,7 +84,8 @@ a:hover i {
 	border: 0;
 	box-shadow: -10px 0 30px #20C997;
 
-	transition-duration: .3s;
+	/* transition-duration: .3s; */
+	transition-timing-function: ease-out;
 }
 
 img {
