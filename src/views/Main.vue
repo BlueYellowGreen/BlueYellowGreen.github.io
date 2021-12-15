@@ -15,7 +15,9 @@
 
       <div class="mt-3 container p-0">
         <div class="row">
-          <div class="col-5">
+
+          <!-- Bar Chart -->
+          <div class="col-md-5 col-12">
 
             <h4>Programming Language</h4>
             <div
@@ -63,7 +65,7 @@
 
 
             <h4 class="mt-5">Library</h4>
-            <div class="animate__animated animate__fadeIn">
+            <div class="mb-5 animate__animated animate__fadeIn">
               <div data-tooltip="학습에 필요한 Dataset을 설계하고,
                 Custom transforms 바탕으로 DataLoader를 구축하고,
                 모델을 설계하여 CLI 상에서 모델을 학습시킬 수 있습니다.">
@@ -85,6 +87,47 @@
             </div>
 
           </div>
+
+          <!-- History -->
+          <div class="offset-md-1 col-md-6 col-12">
+            <h4>교육 이력</h4>
+
+            <hr class="mt-4">
+
+            <div class="animate__animated animate__fadeIn animate__slow">
+              <h5 class="mt-4">군장병 공개SW역량강화교육 개발 캠프과정</h5>
+              <h6>안드로이드 앱 개발에 관한 교육</h6>
+              <div class="mt-4">
+                <span class="m-0">Java와 node.js를 이용한 안드로이드 앱</span>
+                <span class="small-text"> (주변 약국 위치 조회)</span>
+                <p class="mt-1">개발 교육</p>
+              </div>
+            </div>
+
+            <hr class="mt-4">
+
+            <div class="animate__animated animate__fadeIn animate__slow">
+              <h5 class="mt-4">[코더스하이] iOS APP 개발 특성화교육</h5>
+              <h6>Swift를 이용한 iOS 앱 개발 교육</h6>
+              <div class="mt-4">
+                <p class="m-0">Swift를 이용한 iOS앱 개발 교육을 통한 영어 회화 도우미</p>
+                <p class="mt-1">앱, 'For Dreamer'개발</p>
+              </div>
+            </div>
+
+            <hr class="mt-4">
+
+            <div class="animate__animated animate__fadeIn animate__slow">
+              <h5 class="mt-4">삼성 청년 소프트웨어 아카데미 (SSAFY)</h5>
+              <h6>자료구조와 알고리즘 및 협업을 통한 개발에 대한 교육</h6>
+              <div class="mt-4">
+                <p class="m-0">자료구조 및 알고리즘 학습을 바탕으로 'Pipl', 'HomeFarmT',</p>
+                <p class="mt-1">'Urls' 프로젝트 진행</p>
+              </div>
+            </div>
+
+          </div>
+
         </div>
       </div>
 
@@ -161,4 +204,6 @@ export default {
 /* .pytorch-box    { background: linear-gradient(to right, #FF6B6B 40%, #FF6B6B, #FF9D9D 70%, #f0f0f0 10%); } */
 .pytorch-box    { background: linear-gradient(to right, #fd8080 40%, #fd8080, #ffb0b0 70%, #f0f0f0 10%); }
 .tensorflow-box { background: linear-gradient(to right, #fd8080 20%, #fd8080, #ffb0b0 40%, #f0f0f0 10%); }
+
+h6 { color: #B2B2B2; }
 </style>
