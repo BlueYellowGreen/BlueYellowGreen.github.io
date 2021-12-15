@@ -79,10 +79,13 @@ a:hover i {
 
 #offcanvasScrolling {
 	width: 18rem;
-	/* border-right: 3px solid;
-	border-color: #20C997; */
-	border: 0;
-	box-shadow: -10px 0 30px #20C997;
+
+	border-right: 2px solid;
+	border-right-color: #333333;
+	border-radius: 10px;
+	
+	/* border: 0;
+	box-shadow: -10px 0 30px #20C997; */
 
 	/* transition-duration: .3s; */
 	transition-timing-function: ease-out;
