@@ -5,7 +5,7 @@
     <div class="d-flex justify-content-end">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item active breadcrumb-color" aria-current="page">Main</li>
+          <li class="breadcrumb-item current">Main</li>
         </ol>
       </nav>
     </div>
@@ -175,7 +175,7 @@ export default {
   transform: translateY(0);
 }
 
-.breadcrumb-color { color: #20C997; }
+.current { color: #20C997; }
 
 .small-text { font-size: 0.9rem; }
 

@@ -12,10 +12,10 @@
 		<!-- CS/알고리즘/ DEPTHL: 1 -->
 		<div class="collapse" id="cs-folder">
 			<div class="card card-body hierarchy border-0 p-0 ps-3 m-0" data-bs-toggle="collapse"	href="#cs-algo-folder" role="button" aria-expanded="false" aria-controls="cs-algo-folder">
-				<a class="text-decoration-none">
+				<router-link to="/algo" class="text-decoration-none">
 					<i class="bi-chevron-right text-dark" />
 					<span class="text-dark">알고리즘</span>
-				</a>
+				</router-link>
 			</div>
 		</div>
 
