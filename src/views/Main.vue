@@ -34,56 +34,67 @@
 
 
             <h4 class="mt-5">Framework</h4>
-            <div class="animate__animated animate__fadeIn">
-              <div data-tooltip="REST API를 설계할 수 있으며,
-                비즈니스 로직을 처리할 수 있습니다.">
-                <div class="mt-3 d-flex justify-content-between small-text">
-                  <span>FastAPI</span>
-                  <span>50%</span>
-                </div>
-                <div class="box fastapi-box"></div>
+            <div
+              class="animate__animated animate__fadeIn"
+              data-tooltip="REST API를 설계할 수 있으며,
+              비즈니스 로직을 처리할 수 있습니다."
+            >
+              <div class="mt-3 d-flex justify-content-between small-text">
+                <span>FastAPI</span>
+                <span>50%</span>
               </div>
+              <div class="box fastapi-box"></div>
+            </div>
 
-              <div data-tooltip="REST API를 설계할 수 있으며,
-                비즈니스 로직을 처리할 수 있습니다.">
-                <div class="mt-2 d-flex justify-content-between small-text">
-                  <span>Django</span>
-                  <span>45%</span>
-                </div>
-                <div class="box django-box"></div>
+            <div
+              class="animate__animated animate__fadeIn"
+              data-tooltip="REST API를 설계할 수 있으며,
+              비즈니스 로직을 처리할 수 있습니다."
+            >
+              <div class="mt-2 d-flex justify-content-between small-text">
+                <span>Django</span>
+                <span>45%</span>
               </div>
+              <div class="box django-box"></div>
+            </div>
 
-              <div data-tooltip="와이어프레임을 바탕으로 CSS 프레임워크를
-                이용하여 레이아웃을 구성할 수 있습니다.">
-                <div class="mt-2 d-flex justify-content-between small-text">
-                  <span>Vue.js</span>
-                  <span>60%</span>
-                </div>
-                <div class="box vuejs-box"></div>
+            <div
+              class="animate__animated animate__fadeIn"
+              data-tooltip="와이어프레임을 바탕으로 CSS 프레임워크를
+              이용하여 레이아웃을 구성할 수 있습니다."
+            >
+              <div class="mt-2 d-flex justify-content-between small-text">
+                <span>Vue.js</span>
+                <span>60%</span>
               </div>
+              <div class="box vuejs-box"></div>
             </div>
 
 
             <h4 class="mt-5">Library</h4>
-            <div class="mb-5 animate__animated animate__fadeIn">
-              <div data-tooltip="학습에 필요한 Dataset을 설계하고,
-                Custom transforms 바탕으로 DataLoader를 구축하고,
-                모델을 설계하여 CLI 상에서 모델을 학습시킬 수 있습니다.">
-                <div class="mt-3 d-flex justify-content-between small-text">
-                  <span>PyTorch</span>
-                  <span>70%</span>
-                </div>
-                <div class="box pytorch-box"></div>
+            <div
+              class="animate__animated animate__fadeIn"
+              data-tooltip="학습에 필요한 Dataset을 설계하고,
+              Custom transforms 바탕으로 DataLoader를 구축하고,
+              모델을 설계하여 CLI 상에서 모델을 학습시킬 수 있습니다."
+            >
+              <div class="mt-3 d-flex justify-content-between small-text">
+                <span>PyTorch</span>
+                <span>70%</span>
               </div>
+              <div class="box pytorch-box"></div>
+            </div>
 
-              <div data-tooltip="구조화된 데이터셋을 이용하여 스케쥴링 기능이
-                포함된 형태로 모델을 학습시킬 수 있습니다.">
-                <div class="mt-2 d-flex justify-content-between small-text">
-                  <span>TensorFlow</span>
-                  <span>40%</span>
-                </div>
-                <div class="box tensorflow-box"></div>
+            <div
+              class="animate__animated animate__fadeIn"
+              data-tooltip="구조화된 데이터셋을 이용하여 스케쥴링 기능이
+              포함된 형태로 모델을 학습시킬 수 있습니다."
+            >
+              <div class="mt-2 d-flex justify-content-between small-text">
+                <span>TensorFlow</span>
+                <span>40%</span>
               </div>
+              <div class="box tensorflow-box"></div>
             </div>
 
           </div>
@@ -145,7 +156,7 @@ export default {
 [data-tooltip] {
   position: relative;
   cursor: default;
-  z-index: 1000;
+  z-index: 1;
 }
 
 [data-tooltip]::after {
