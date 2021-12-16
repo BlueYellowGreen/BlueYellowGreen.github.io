@@ -1,7 +1,7 @@
 <template>
   <div>
 		<!-- CS/ DEPTH: 0 -->
-		<div class="hierarchy" data-bs-toggle="collapse" href="#cs-folder" role="button"	aria-expanded="false" aria-controls="cs-folder">
+		<div class="hierarchy" data-bs-toggle="collapse" href="#cs-folder" role="button" aria-expanded="false" aria-controls="cs-folder">
 			<a class="text-decoration-none">
 				<i class="bi-chevron-right text-dark" />
 				<span class="text-dark">CS</span>
@@ -11,16 +11,24 @@
 
 		<!-- CS/알고리즘/ DEPTHL: 1 -->
 		<div class="collapse" id="cs-folder">
-			<div class="card card-body hierarchy border-0 p-0 ps-3 m-0" data-bs-toggle="collapse"	href="#cs-algo-folder" role="button" aria-expanded="false" aria-controls="cs-algo-folder">
-				<router-link to="/algo" class="text-decoration-none">
-					<i class="bi-chevron-right text-dark" />
-					<span class="text-dark">알고리즘</span>
-				</router-link>
+			<div class="card card-body  border-0 p-0 m-0" data-bs-toggle="collapse" href="#cs-algo-folder" role="button" aria-expanded="false" aria-controls="cs-algo-folder">
+				<div class="hierarchy ps-3">
+					<router-link to="/algo" class="text-decoration-none">
+						<i class="bi-chevron-right text-dark" />
+						<span class="text-dark">알고리즘</span>
+					</router-link>
+				</div>
+				<!-- <div class="hierarchy ps-3">
+					<a class="text-decoration-none">
+						<i class="bi-chevron-right text-dark" />
+						<span class="text-dark">Test</span>
+					</a>
+				</div> -->
 			</div>
 		</div>
 
 		<!-- AI/ DEPTH: 0 -->
-		<div class="hierarchy" data-bs-toggle="collapse" href="#ai-folder" role="button"	aria-expanded="false" aria-controls="ai-folder">
+		<div class="hierarchy" data-bs-toggle="collapse" href="#ai-folder" role="button" aria-expanded="false" aria-controls="ai-folder">
 			<a class="text-decoration-none">
 				<i class="bi-chevron-right text-dark" />
 				<span class="text-dark">AI</span>
@@ -29,7 +37,7 @@
 
 		<!-- AI/공통/ DEPTH: 1 -->
 		<div class="collapse" id="ai-folder">
-			<div class="card card-body hierarchy border-0 p-0 ps-3 m-0" data-bs-toggle="collapse"	href="#ai-common-folder" role="button" aria-expanded="false" aria-controls="ai-common-folder">
+			<div class="card card-body hierarchy border-0 p-0 ps-3 m-0" data-bs-toggle="collapse" href="#ai-common-folder" role="button" aria-expanded="false" aria-controls="ai-common-folder">
 				<a class="text-decoration-none">
 					<i class="bi-chevron-right text-dark" />
 					<span class="text-dark">공통</span>
@@ -38,7 +46,7 @@
 		</div>
 
 		<!-- BlockChain/ DEPTH: 0 -->
-		<div class="hierarchy" data-bs-toggle="collapse" href="#blockchain-folder" role="button"	aria-expanded="false" aria-controls="blockchain-folder">
+		<div class="hierarchy" data-bs-toggle="collapse" href="#blockchain-folder" role="button" aria-expanded="false" aria-controls="blockchain-folder">
 			<a class="text-decoration-none">
 				<i class="bi-chevron-right text-dark" />
 				<span class="text-dark">BlockChain</span>
