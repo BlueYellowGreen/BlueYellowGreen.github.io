@@ -145,6 +145,7 @@ export default {
 [data-tooltip] {
   position: relative;
   cursor: default;
+  z-index: 1000;
 }
 
 [data-tooltip]::after {
