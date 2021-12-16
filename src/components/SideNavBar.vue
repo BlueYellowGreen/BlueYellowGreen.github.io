@@ -61,38 +61,16 @@ export default {
 </script>
 
 <style scoped>
-a {
-	position: fixed;
-	/* margin-top: 20%; */
-}
-
-a:hover {
-	transform: scale(1.1, 1.1);
-	transition-duration: .2s;
-}
-
-a:hover i {
-	color: #20C997;
-	
-	transition-duration: .2s;
-}
+a         {	position: fixed; }
+a:hover   { transform: scale(1.1, 1.1); transition-duration: .2s; }
+a:hover i {	color: #20C997; transition-duration: .2s; }
 
 #offcanvasScrolling {
 	width: 18rem;
-
-	border-right: 2px solid;
-	border-right-color: #333333;
-	border-radius: 10px;
-	
-	/* border: 0;
-	box-shadow: -10px 0 30px #20C997; */
-
-	/* transition-duration: .3s; */
+	box-sizing: border-box;
+	box-shadow: 0 0 3px 1px rgba(0, 0, 0, .25);
 	transition-timing-function: ease-out;
 }
 
-img {
-	width: 12rem;
-	border-radius: 50%;
-}
+img { width: 12rem;	border-radius: 50%; }
 </style>
