@@ -34,7 +34,7 @@ jobs:
         run: npm install
       
       - name: Build page
-        run: npm run build && ls && pwd
+        run: npm run build && cp CNAME ./dist
         env:
           NODE_ENV: production
       
@@ -43,6 +43,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-
-      - name: Test
-        run: ls && pwd
