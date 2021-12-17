@@ -4,7 +4,7 @@ import router from './router'
 
 import VueGtag from 'vue-gtag'
 
-Vue.use(VueGtag, {
+App.use(VueGtag, {
     config: {
         id: "G-23KGQVB87M" // Google Analytics
     }
