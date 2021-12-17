@@ -1,1 +1,9 @@
-google_analytics: 'G-23KGQVB87M'
+# Analytics
+analytics:
+  provider: "google-gtag"
+
+  google:
+    tracking_id: "G-23KGQVB87M"
+    # anonymize_ip: true # false default
+
+# google_analytics: 'G-23KGQVB87M'
