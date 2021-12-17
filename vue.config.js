@@ -14,13 +14,38 @@ const productionPlugins = [
     }),
 ]
 
+
+const SitemapPlugin = require('sitemap-webpack-plugin').default
+const paths = [
+    {
+        path: '/',
+        lastmod: new Date().toISOString().slice(0, 10),
+        priority: '1.0',
+        changefreq: 'daily'
+    },
+    {
+        path: '/algo',
+        lastmod: new Date().toISOString().slice(0, 10),
+        priority: '0.8',
+        changefreq: 'daily'
+    },
+]
+
+
 module.exports = {
-    // publicPath: "/",
-    // outputDir: "dist"
     lintOnSave: false,
     configureWebpack: (config) => {
         if (process.env.NODE_ENV === 'production') {
             config.plugins.push(...productionPlugins)
         }
+
+        plugins: [
+            new SitemapPlugin('https://leedooho.com', paths, {
+                filename: 'sitemap.xml',
+                lastmod: true,
+                changefreq: 'daily',
+                priority: '0.8'
+            })
+        ]
     }
 }
