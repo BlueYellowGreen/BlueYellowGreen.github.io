@@ -99,9 +99,30 @@
 </template>
 
 <script>
+import { useMeta } from 'vue-meta'
+
 export default {
 	name: 'Algo',
   setup() {
+    useMeta({
+      // title === '' in App.vue -> override at components
+      // override bellow
+      title: 'Algorithm',
+      description: 'Algorithm and Code Examples',
+      base: { href: '/algo/' },
+      og: {
+        title: "Algorithm | Dooho's Blog",
+        description: 'Algorithm and Code Examples',
+        image: [
+          '../../assets/images/DFS_PNG.png',
+        ],
+        url: 'https://leedooho.com/algo/'
+      },
+      twitter: {
+        title: "Algorithm | Dooho's Blog"
+      },
+    })
+
     const aps = [
       { tag: ['문자열',], hardness: '⭐', description: '공통 단어 찾기' },
     ]

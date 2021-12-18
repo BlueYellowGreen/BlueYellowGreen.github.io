@@ -1,4 +1,7 @@
 <template>
+  <metainfo>
+    <template v-slot:title="{ content }">{{ content ? `${content} | Dooho's Blog` : `Dooho's Blog` }}</template>
+  </metainfo>
   <SideNavBar />
 
   <div id="APP" class="container">
@@ -17,9 +20,34 @@
 <script>
 import SideNavBar from '@/components/SideNavBar.vue'
 
+import { useMeta } from 'vue-meta'
+
 export default {
   components: {
     SideNavBar
+  },
+  setup() {
+    useMeta({
+      // title === '' in App.vue -> override at components
+      // override bellow
+      title: '',
+      description: 'CS, AI, BlockChain 등 학습 내용을 기록한 블로그입니다.',
+      base: { href: '/' },
+      og: {
+        title: "Dooho's Blog",
+        description: 'CS, AI, BlockChain 등 학습 내용을 기록한 블로그입니다.',
+        image: [
+          'https://avatars.githubusercontent.com/u/41604595?v=4',
+        ],
+        url: 'https://leedooho.com/'
+      },
+      twitter: {
+        title: "Dooho's Blog"
+      },
+
+      // don't need to override this
+      htmlAttrs: { lang: 'ko', amp: true }
+    })
   }
 }
 </script>
