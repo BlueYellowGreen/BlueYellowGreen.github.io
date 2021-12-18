@@ -105,8 +105,6 @@ export default {
 	name: 'Algo',
   setup() {
     useMeta({
-      // title === '' in App.vue -> override at components
-      // override bellow
       title: 'Algorithm',
       description: 'Algorithm and Code Examples',
       base: { href: '/algo/' },
@@ -114,7 +112,7 @@ export default {
         title: "Algorithm | Dooho's Blog",
         description: 'Algorithm and Code Examples',
         image: [
-          '../../assets/images/DFS_PNG.png',
+          'https://github.com/BlueYellowGreen/BlueYellowGreen.github.io/tree/main/public/images/DFS_PNG.png',
         ],
         url: 'https://leedooho.com/algo/'
       },
