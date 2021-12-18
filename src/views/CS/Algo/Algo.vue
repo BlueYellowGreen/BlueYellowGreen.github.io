@@ -112,7 +112,7 @@ export default {
         title: "Algorithm | Dooho's Blog",
         description: 'Algorithm and Code Examples',
         image: [
-          'https://github.com/BlueYellowGreen/BlueYellowGreen.github.io/tree/main/public/images/DFS_PNG.png',
+          'https://github.com/BlueYellowGreen/BlueYellowGreen.github.io/blob/main/public/images/DFS_PNG.png?raw=true',
         ],
         url: 'https://leedooho.com/algo/'
       },
