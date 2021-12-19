@@ -12,12 +12,12 @@
 		<!-- CS/알고리즘/ DEPTHL: 1 -->
 		<div class="collapse" id="cs-folder">
 			<div class="card card-body  border-0 p-0 m-0" data-bs-toggle="collapse" href="#cs-algo-folder" role="button" aria-expanded="false" aria-controls="cs-algo-folder">
-				<div class="hierarchy ps-3">
-					<router-link to="/algo" class="text-decoration-none">
+				<router-link to="/algo" class="text-decoration-none">
+					<div class="hierarchy ps-3">
 						<i class="bi-chevron-right text-dark" />
 						<span class="text-dark">알고리즘</span>
-					</router-link>
-				</div>
+					</div>
+				</router-link>
 				<!-- <div class="hierarchy ps-3">
 					<a class="text-decoration-none">
 						<i class="bi-chevron-right text-dark" />
@@ -61,7 +61,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .hierarchy { border-radius: 5px; }
 .hierarchy:hover {
 	background-color: #20c9966e;
