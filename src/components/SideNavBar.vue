@@ -91,22 +91,4 @@ img { width: 12rem;	border-radius: 50%; }
 .linkedin {	margin-left: 1rem;	font-size: 1.7rem; color: black; }
 .github:hover { color: #20C997; transition-duration: .2s; }
 .linkedin:hover { color: #20C997; transition-duration: .2s; }
-
-/* 스크롤이 움직이는 범위 */
-::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.25);
-	border-radius: 10px;
-	background-color: #F8F9FA;
-}
-/* 전체 스크롤 */
-::-webkit-scrollbar {
-	width: 5px;
-	/* background-color: #F5F5F5; */
-}
-/* 스크롤 바 */
-::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #47f1be;
-}
 </style>
