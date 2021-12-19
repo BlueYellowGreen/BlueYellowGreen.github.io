@@ -18,12 +18,6 @@
 						<span class="text-dark">알고리즘</span>
 					</div>
 				</router-link>
-				<!-- <div class="hierarchy ps-3">
-					<a class="text-decoration-none">
-						<i class="bi-chevron-right text-dark" />
-						<span class="text-dark">Test</span>
-					</a>
-				</div> -->
 			</div>
 		</div>
 

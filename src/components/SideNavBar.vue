@@ -34,11 +34,26 @@
 				</div>
 
 				<!-- 인사말 -->
-				<div class="ms-3 me-3 mt-5">
+				<div class="ms-3 me-3 mt-5 pb-2">
 					<p class="mb-1 ms-3">안녕하세요,</p>
 					<p class="mb-1 ms-3">인공지능과 블록체인에</p>
-					<p class="ms-3">관심있는 개발자입니다. 😀</p>
+					<p class="ms-3 mb-1">관심있는 개발자입니다. 😀</p>
+
+					<!-- SNS -->
+					<a
+						class="github"
+						target="_blank"
+						href="https://github.com/BlueYellowGreen">
+						<i class="bi bi-github text-dark"></i>
+					</a>
+					<a
+						class="linkedin"
+						target="_blank"
+						href="https://www.linkedin.com/in/dooho-lee-56b295219/">
+						<i class="bi bi-linkedin text-dark"></i>
+					</a>
 				</div>
+
 
 				<!-- Folder -->
 				<div class="mt-5 ms-3 me-3">
@@ -73,4 +88,7 @@ a:hover i {	color: #20C997; transition-duration: .2s; }
 }
 
 img { width: 12rem;	border-radius: 50%; }
+
+.github { margin-left: 1.5vw;	font-size: 1.8vw; }
+.linkedin {	margin-left: 4vw;	font-size: 1.7vw; }
 </style>
