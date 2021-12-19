@@ -3,7 +3,7 @@
 
 		<!-- Side Bar 활성화 버튼 -->
 		<a
-			class="mt-2 ms-3 text-dark"
+			class="mt-2 ms-3 text-dark sidebar"
 			data-bs-toggle="offcanvas"
 			data-bs-target="#offcanvasScrolling"
 			aria-controls="offcanvasScrolling"
@@ -34,29 +34,27 @@
 				</div>
 
 				<!-- 인사말 -->
-				<div class="ms-3 me-3 mt-5 pb-2">
+				<div class="ms-3 me-3 mt-5">
 					<p class="mb-1 ms-3">안녕하세요,</p>
 					<p class="mb-1 ms-3">인공지능과 블록체인에</p>
 					<p class="ms-3 mb-1">관심있는 개발자입니다. 😀</p>
-
 					<!-- SNS -->
 					<a
 						class="github"
 						target="_blank"
 						href="https://github.com/BlueYellowGreen">
-						<i class="bi bi-github text-dark"></i>
+						<i class="bi bi-github"></i>
 					</a>
 					<a
 						class="linkedin"
 						target="_blank"
 						href="https://www.linkedin.com/in/dooho-lee-56b295219/">
-						<i class="bi bi-linkedin text-dark"></i>
+						<i class="bi bi-linkedin"></i>
 					</a>
 				</div>
 
-
 				<!-- Folder -->
-				<div class="mt-5 ms-3 me-3">
+				<div class="mt-4 ms-3 me-3">
 					<Hierarchy />	
 				</div>
 			</div>
@@ -76,9 +74,9 @@ export default {
 </script>
 
 <style scoped>
-a         {	position: fixed; }
-a:hover   { transform: scale(1.1, 1.1); transition-duration: .2s; }
-a:hover i {	color: #20C997; transition-duration: .2s; }
+.sidebar         {	position: fixed; }
+.sidebar:hover   { transform: scale(1.1, 1.1); transition-duration: .2s; }
+.sidebar:hover i {	color: #20C997; transition-duration: .2s; }
 
 #offcanvasScrolling {
 	width: 18rem;
@@ -89,6 +87,26 @@ a:hover i {	color: #20C997; transition-duration: .2s; }
 
 img { width: 12rem;	border-radius: 50%; }
 
-.github { margin-left: 1.5vw;	font-size: 1.8vw; }
-.linkedin {	margin-left: 4vw;	font-size: 1.7vw; }
+.github { margin-left: 1.5rem;	font-size: 1.7rem; color: black; }
+.linkedin {	margin-left: 1rem;	font-size: 1.7rem; color: black; }
+.github:hover { color: #20C997; transition-duration: .2s; }
+.linkedin:hover { color: #20C997; transition-duration: .2s; }
+
+/* 스크롤이 움직이는 범위 */
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	background-color: #F8F9FA;
+}
+/* 전체 스크롤 */
+::-webkit-scrollbar {
+	width: 5px;
+	/* background-color: #F5F5F5; */
+}
+/* 스크롤 바 */
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #47f1be;
+}
 </style>
