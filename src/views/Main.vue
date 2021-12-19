@@ -16,7 +16,7 @@
       <div class="mt-3 container p-0">
         <div class="row">
 
-          <!-- Bar Chart -->
+          <!-- Bar Chart & Certificate -->
           <div class="col-md-5 col-12">
 
             <h4>Programming Language</h4>
@@ -97,6 +97,21 @@
               <div class="box tensorflow-box"></div>
             </div>
 
+
+            <h4 class="mt-5">Certificate</h4>
+            <div class="animate__animated animate__fadeIn mb-5">
+              <div class="mt-3">
+                <p class="mb-1">- TensorFlow Developer Certificate</p>
+                <span class="date ms-3">2021/10~2024/10</span>
+                <a
+                  target="_blank"
+                  href="https://www.credential.net/131aff0a-d8b8-4cd8-a7a1-30fd96a6b173#gs.js2w9i"
+                  class="date ms-3 fw-bold verify text-decoration-none"
+                >
+                  Verify
+                </a>
+              </div>
+            </div>
           </div>
 
           <!-- History -->
@@ -106,20 +121,33 @@
             <hr class="mt-4">
 
             <div class="animate__animated animate__fadeIn animate__slow">
-              <h5 class="mt-4">군장병 공개SW역량강화교육 개발 캠프과정</h5>
-              <h6>안드로이드 앱 개발에 관한 교육</h6>
+              <p class="date mb-1">2021/08~2021/12</p>
+              <h5>구글 머신러닝 부트캠프 2021</h5>
+              <p class="sub-title">자료구조와 알고리즘 및 협업을 통한 개발에 대한 교육</p>
               <div class="mt-4">
-                <span class="m-0">Java와 node.js를 이용한 안드로이드 앱</span>
-                <span class="small-text"> (주변 약국 위치 조회)</span>
-                <p class="mt-1">개발 교육</p>
+                <p class="m-0">자료구조 및 알고리즘 학습을 바탕으로 'Pipl', 'HomeFarmT',</p>
+                <p class="mt-1">'Urls' 프로젝트 진행</p>
               </div>
             </div>
 
             <hr class="mt-4">
 
             <div class="animate__animated animate__fadeIn animate__slow">
-              <h5 class="mt-4">[코더스하이] iOS APP 개발 특성화교육</h5>
-              <h6>Swift를 이용한 iOS 앱 개발 교육</h6>
+              <p class="date mb-1">2021/01~2021/12</p>
+              <h5>삼성 청년 소프트웨어 아카데미 (SSAFY)</h5>
+              <p class="sub-title">자료구조와 알고리즘 및 협업을 통한 개발에 대한 교육</p>
+              <div class="mt-4">
+                <p class="m-0">자료구조 및 알고리즘 학습을 바탕으로 'Pipl', 'HomeFarmT',</p>
+                <p class="mt-1">'Urls' 프로젝트 진행</p>
+              </div>
+            </div>
+
+            <hr class="mt-4">
+
+            <div class="animate__animated animate__fadeIn animate__slow">
+              <p class="date mb-1">2018/06~2018/08</p>
+              <h5>[코더스하이] iOS APP 개발 특성화교육</h5>
+              <p class="sub-title">Swift를 이용한 iOS 앱 개발 교육</p>
               <div class="mt-4">
                 <p class="m-0">Swift를 이용한 iOS앱 개발 교육을 통한 영어 회화 도우미</p>
                 <p class="mt-1">앱, 'For Dreamer'개발</p>
@@ -129,11 +157,13 @@
             <hr class="mt-4">
 
             <div class="animate__animated animate__fadeIn animate__slow">
-              <h5 class="mt-4">삼성 청년 소프트웨어 아카데미 (SSAFY)</h5>
-              <h6>자료구조와 알고리즘 및 협업을 통한 개발에 대한 교육</h6>
+              <p class="date mb-1">2016/10~2016/10</p>
+              <h5>군장병 공개SW역량강화교육 개발 캠프과정</h5>
+              <p class="sub-title">안드로이드 앱 개발에 관한 교육</p>
               <div class="mt-4">
-                <p class="m-0">자료구조 및 알고리즘 학습을 바탕으로 'Pipl', 'HomeFarmT',</p>
-                <p class="mt-1">'Urls' 프로젝트 진행</p>
+                <span class="m-0">Java와 node.js를 이용한 안드로이드 앱</span>
+                <span class="small-text"> (주변 약국 위치 조회)</span>
+                <p class="mt-1">개발 교육</p>
               </div>
             </div>
 
@@ -207,6 +237,8 @@ export default {
   height: 20px;
 }
 
+.verify:hover { color:#20C997; transition-duration: .3s; }
+
 /* .python-box     { background: linear-gradient(to right, #42CDC4 40%, #42CDC4, #75D8D0 80%, #f0f0f0 10%); } */
 .python-box     { background: linear-gradient(to right, #68d3cc 40%, #68d3cc, #9adad4 80%, #f0f0f0 10%); }
 /* .fastapi-box    { background: linear-gradient(to right, #AB64F4 35%, #AB64F4, #C492F7 50%, #f0f0f0 10%); } */
@@ -217,5 +249,7 @@ export default {
 .pytorch-box    { background: linear-gradient(to right, #fd8080 40%, #fd8080, #ffb0b0 70%, #f0f0f0 10%); }
 .tensorflow-box { background: linear-gradient(to right, #fd8080 20%, #fd8080, #ffb0b0 40%, #f0f0f0 10%); }
 
-h6 { color: #B2B2B2; }
+h5 { font-weight: bold; }
+.sub-title { color: #B2B2B2; font-size: 1vw;}
+.date { color: #B2B2B2; font-size: 0.8vw;}
 </style>
