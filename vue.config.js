@@ -6,7 +6,13 @@ const productionPlugins = [
         staticDir: path.join(__dirname, 'dist'),
         routes: [
             "/",
-            "/algo"
+            "/cs",
+            "/cs/algo",
+            "/cs/algo/dfs",
+            "/cs/algo/bfs",
+            "/ai",
+            "/ai/common",
+            "/blockchain"
         ],
         renderer: new PrerenderSpaPlugin.PuppeteerRenderer({
             renderAfterElementExists: '#app'
