@@ -27,7 +27,7 @@
             >
               <div class="d-flex justify-content-between small-text">
                 <span>Python</span>
-                <span>80%</span>
+                <span>70%</span>
               </div>
               <div class="box python-box"></div>
             </div>
@@ -80,7 +80,7 @@
             >
               <div class="mt-3 d-flex justify-content-between small-text">
                 <span>PyTorch</span>
-                <span>70%</span>
+                <span>60%</span>
               </div>
               <div class="box pytorch-box"></div>
             </div>
@@ -238,14 +238,11 @@ export default {
 
 .verify:hover { color:#20C997; transition-duration: .3s; }
 
-/* .python-box     { background: linear-gradient(to right, #42CDC4 40%, #42CDC4, #75D8D0 80%, #f0f0f0 10%); } */
-.python-box     { background: linear-gradient(to right, #68d3cc 40%, #68d3cc, #9adad4 80%, #f0f0f0 10%); }
-/* .fastapi-box    { background: linear-gradient(to right, #AB64F4 35%, #AB64F4, #C492F7 50%, #f0f0f0 10%); } */
+.python-box     { background: linear-gradient(to right, #68d3cc 40%, #68d3cc, #9adad4 70%, #f0f0f0 10%); }
 .fastapi-box    { background: linear-gradient(to right, #b07ce4 35%, #b07ce4, #d0a8f8 50%, #f0f0f0 10%); }
 .django-box     { background: linear-gradient(to right, #b07ce4 30%, #b07ce4, #d0a8f8 45%, #f0f0f0 10%); }
 .vuejs-box      { background: linear-gradient(to right, #b07ce4 40%, #b07ce4, #d0a8f8 60%, #f0f0f0 10%); }
-/* .pytorch-box    { background: linear-gradient(to right, #FF6B6B 40%, #FF6B6B, #FF9D9D 70%, #f0f0f0 10%); } */
-.pytorch-box    { background: linear-gradient(to right, #fd8080 40%, #fd8080, #ffb0b0 70%, #f0f0f0 10%); }
+.pytorch-box    { background: linear-gradient(to right, #fd8080 40%, #fd8080, #ffb0b0 60%, #f0f0f0 10%); }
 .tensorflow-box { background: linear-gradient(to right, #fd8080 20%, #fd8080, #ffb0b0 40%, #f0f0f0 10%); }
 
 h5 { font-weight: bold; }
