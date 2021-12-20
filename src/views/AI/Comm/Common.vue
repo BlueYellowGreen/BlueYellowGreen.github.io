@@ -43,14 +43,14 @@ name: 'Common',
     useMeta({
       title: 'Common AI',
       description: 'Common things of AI',
-      base: { href: '/common/' },
+      base: { href: '/ai/common/' },
       og: {
         title: "Common | Dooho's Blog",
         description: 'Common things of AI',
         image: [
           '',
         ],
-        url: 'https://leedooho.com/common/'
+        url: 'https://leedooho.com/ai/common/'
       },
       twitter: {
         title: "Common AI | Dooho's Blog"

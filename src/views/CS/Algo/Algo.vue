@@ -33,7 +33,7 @@
 
       <div class="mt-5 row">
         <!-- DFS -->
-        <div class="col-md-2 col-6">
+        <div @click="go('dfs')" class="col-md-2 col-6">
           <div class="small-box">
             <svg class="mb-1" width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="15" height="15" fill="#20C997"/>
@@ -58,7 +58,7 @@
         </div>
 
         <!-- BFS -->
-        <div class="col-md-2 col-6">
+        <div @click="go('bfs')" class="col-md-2 col-6">
           <div class="small-box">
             <svg class="mb-1" width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="15" height="15" fill="#20C997"/>
@@ -108,6 +108,8 @@
 </template>
 
 <script>
+import router from '../../../router/index.js'
+
 import { useMeta } from 'vue-meta'
 
 export default {
@@ -116,14 +118,14 @@ export default {
     useMeta({
       title: 'Algorithm',
       description: 'Algorithm and Code Examples',
-      base: { href: '/algo/' },
+      base: { href: '/cs/algo/' },
       og: {
         title: "Algorithm | Dooho's Blog",
         description: 'Algorithm and Code Examples',
         image: [
           'https://github.com/BlueYellowGreen/BlueYellowGreen.github.io/blob/main/public/images/DFS_PNG.png?raw=true',
         ],
-        url: 'https://leedooho.com/algo/'
+        url: 'https://leedooho.com/cs/algo/'
       },
       twitter: {
         title: "Algorithm | Dooho's Blog"
@@ -133,8 +135,12 @@ export default {
     const aps = [
       { tag: ['문자열',], hardness: '⭐', description: '공통 단어 찾기' },
     ]
+
+    const go = (path) => { router.push(`/cs/algo/${path}`) }
+
     return {
       aps,
+      go
     }
   }
 }

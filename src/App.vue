@@ -75,6 +75,7 @@ export default {
 /* 전체 스크롤 */
 ::-webkit-scrollbar {
 	width: 5px;
+  height: 5px;
 	/* background-color: #F5F5F5; */
 }
 /* 스크롤 바 */
