@@ -14,7 +14,6 @@
 			<div class="card card-body  border-0 p-0 m-0" data-bs-toggle="collapse" href="#cs-algo-folder" role="button" aria-expanded="false" aria-controls="cs-algo-folder">
 				<router-link to="/algo" class="text-decoration-none">
 					<div class="hierarchy ps-3">
-						<i class="bi-chevron-right text-dark" />
 						<span class="text-dark">알고리즘</span>
 					</div>
 				</router-link>
