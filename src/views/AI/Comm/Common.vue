@@ -2,26 +2,33 @@
   <div class="mt-4">
 
 		<!-- Header - Breadcrumb -->
-    <div class="d-flex justify-content-start">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">
-						<router-link to="/"	class="text-decoration-none custom-breadcrumb-color">
-							Main
-						</router-link>
-					</li>
-          <li class="breadcrumb-item">
-            <router-link to="/ai" class="text-decoration-none custom-breadcrumb-color">
-              AI
-            </router-link>
-          </li>
-          <li class="breadcrumb-item current ">공통</li>
-        </ol>
-      </nav>
+    <div class="container p-0">
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <router-link to="/"	class="text-decoration-none custom-breadcrumb-color">
+                  Main
+                </router-link>
+              </li>
+              <li class="breadcrumb-item">
+                <router-link to="/ai" class="text-decoration-none custom-breadcrumb-color">
+                  AI
+                </router-link>
+              </li>
+              <li class="breadcrumb-item current ">공통</li>
+            </ol>
+          </nav>
+        </div>
+        <div class="offset-md-2 col-md-5 col-12 d-flex justify-content-end p-0">
+
+        </div>
+      </div>
     </div>
 
     <!-- Body -->
-    <div class="mt-3 container">
+    <div class="mt-3 container p-0">
     </div>
   
   </div>

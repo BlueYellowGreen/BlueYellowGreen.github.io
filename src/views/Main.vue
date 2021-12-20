@@ -2,26 +2,32 @@
   <div class="mt-4">
 
     <!-- Header - Breadcrumb -->
-    <div class="d-flex justify-content-between">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item current">Main</li>
-        </ol>
-      </nav>
-      <span>
-        <router-link to="/cs" class="me-3 text-decoration-none text-dark head-link">
-         <i class="bi bi-folder me-1" />
-         <span>CS</span>
-        </router-link>
-        <router-link to="/ai" class="me-3 text-decoration-none text-dark head-link">
-          <i class="bi bi-folder me-1" />
-          <span>AI</span>
-        </router-link>
-        <router-link to="/blockchain" class="me-3 text-decoration-none text-dark head-link">
-          <i class="bi bi-folder me-1" />
-          <span>BlockChain</span>
-        </router-link>
-      </span>
+    <div class="container p-0">
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item current">Main</li>
+            </ol>
+          </nav>
+        </div>
+        <div class="offset-md-2 col-md-6 col-12 d-flex justify-content-end p-0">
+          <span>
+            <router-link to="/cs" class="me-3 text-decoration-none text-dark head-link">
+            <i class="bi bi-folder me-1" />
+            <span>CS</span>
+            </router-link>
+            <router-link to="/ai" class="me-3 text-decoration-none text-dark head-link">
+              <i class="bi bi-folder me-1" />
+              <span>AI</span>
+            </router-link>
+            <router-link to="/blockchain" class="me-3 text-decoration-none text-dark head-link">
+              <i class="bi bi-folder me-1" />
+              <span>BlockChain</span>
+            </router-link>
+          </span>
+        </div>
+      </div>
     </div>
 
     <!-- Body -->
@@ -175,8 +181,8 @@
               <h5>군장병 공개SW역량강화교육 개발 캠프과정</h5>
               <p class="sub-title">안드로이드 앱 개발에 관한 교육</p>
               <div class="mt-4">
-                <span class="m-0">Java와 node.js를 이용한 안드로이드 앱,</span>
-                <p class="mt-1">API를 통한 주변 약국 위치 조회 앱 개발 교육</p>
+                <span class="m-0">Java & node.js 및 API를 이용한</span>
+                <p class="mt-1">주변 약국 위치 조회 앱 개발 교육</p>
               </div>
             </div>
 
