@@ -2,12 +2,26 @@
   <div class="mt-4">
 
     <!-- Header - Breadcrumb -->
-    <div class="d-flex justify-content-end">
+    <div class="d-flex justify-content-between">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item current">Main</li>
         </ol>
       </nav>
+      <span>
+        <router-link to="/cs" class="me-3 text-decoration-none text-dark head-link">
+         <i class="bi bi-folder me-1" />
+         <span>CS</span>
+        </router-link>
+        <router-link to="/ai" class="me-3 text-decoration-none text-dark head-link">
+          <i class="bi bi-folder me-1" />
+          <span>AI</span>
+        </router-link>
+        <router-link to="/blockchain" class="me-3 text-decoration-none text-dark head-link">
+          <i class="bi bi-folder me-1" />
+          <span>BlockChain</span>
+        </router-link>
+      </span>
     </div>
 
     <!-- Body -->
@@ -182,6 +196,8 @@ export default {
 </script>
 
 <style scoped>
+.head-link:hover i, .head-link:hover span { color: #20C997; transition-duration: .2s; }
+
 [data-tooltip] {
   position: relative;
   cursor: default;

@@ -9,9 +9,29 @@ const routes = [
     component: Main
   },
   {
-    path: '/algo',
+    path: '/cs',
+    name: 'CS',
+    component: () => import('../views/CS/CS.vue')
+  },
+  {
+    path: '/cs/algo',
     name: 'Algo',
     component: () => import('../views/CS/Algo/Algo.vue')
+  },
+  {
+    path: '/ai',
+    name: 'AI',
+    component: () => import('../views/AI/AI.vue')
+  },
+  {
+    path: '/ai/common',
+    name: 'Common',
+    component: () => import('../views/AI/Comm/Common.vue')
+  },
+  {
+    path: '/blockchain',
+    name: 'BlockChain',
+    component: () => import('../views/BlockChain/BlockChain.vue')
   }
 ]
 
