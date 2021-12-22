@@ -1,52 +1,17 @@
 {
   "name": "blog",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "http://BlueYellowGreen.github.io/",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "dooho-lee <dhdev5ba@gmail.com>",
+  "license": "MIT",
+  "keywords": [],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "predeploy": "vue-cli-service build",
-    "deploy": "gh-pages -d dist",
-    "clean": "gh-pages-clean"
+    "docs:dev": "vuepress dev",
+    "docs:build": "vuepress build"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0",
-    "vue-gtag-next": "^1.14.0",
-    "vue-meta": "^3.0.0-alpha.9",
-    "vue-router": "^4.0.0-0"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-router": "^4.5.15",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0",
-    "prerender-spa-plugin": "^3.4.0",
-    "vue-cli-plugin-gh-pages": "~1.0.0"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "vuepress": "^1.8.3",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  }
 }
