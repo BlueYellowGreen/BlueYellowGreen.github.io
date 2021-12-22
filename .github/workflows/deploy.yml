@@ -35,7 +35,7 @@ jobs:
       
       - name: Build page
         # run: npm run build && cp CNAME sitemap.xml robots.txt ./dist
-        run: npm run build
+        run: npm run docs:build
         env:
           NODE_ENV: production
       
