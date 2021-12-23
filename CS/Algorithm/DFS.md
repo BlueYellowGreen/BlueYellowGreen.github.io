@@ -11,7 +11,7 @@ meta:
   - property: og:description
     content: DFS (Depth First Search)
   - property: og:img
-    content: /assets/img/DFS-png.png
+    content: https://github.com/BlueYellowGreen/BlueYellowGreen.github.io/blob/main/.vuepress/public/assets/img/DFS-png.png?raw=true
   - property: og:url
     content: https://leedooho.com/CS/Algorithm/DFS.html
 ---
