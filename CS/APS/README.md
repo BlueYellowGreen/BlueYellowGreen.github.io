@@ -10,7 +10,7 @@ meta:
     content: APS
   - property: og:description
     content: APS (Algorithm Problem Solving)
-  - property: og:img
+  - property: og:image
     content: https://github.com/BlueYellowGreen/BlueYellowGreen.github.io/blob/main/.vuepress/public/assets/img/APS.png?raw=true
   - property: og:url
     content: https://leedooho.com/CS/APS/

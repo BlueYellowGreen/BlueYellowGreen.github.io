@@ -10,7 +10,7 @@ meta:
     content: BFS
   - property: og:description
     content: BFS (Breadth First Search)
-  - property: og:img
+  - property: og:image
     content: https://github.com/BlueYellowGreen/BlueYellowGreen.github.io/blob/main/.vuepress/public/assets/img/BFS-png.png?raw=true
   - property: og:url
     content: https://leedooho.com/CS/Algorithm/BFS.html
