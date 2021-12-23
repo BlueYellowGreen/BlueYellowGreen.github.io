@@ -86,5 +86,6 @@ export default {
 .algo-box:hover {
 	transform: scale(105%);
 	transition-duration: .3s;
+	cursor: pointer;
 }
 </style>
