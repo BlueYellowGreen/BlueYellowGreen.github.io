@@ -1,6 +1,13 @@
 <template>
   <div id="global-layout">
 		<component :is="$page.path ? 'Layout' : 'NotFound'" />
+
+		<Comment />
+
+		<br>
+
+		<br>
+
 		<footer class="siteFooter">
 			<p>&copy; 2021 이두호. ALL RIGHTS RESERVED.</p>
 			<p>
