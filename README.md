@@ -11,7 +11,7 @@ meta:
   - property: og:description
     content: IT 학습 내용을 기록하는 공간입니다.
   - property: og:img
-    content: https://avatars.githubusercontent.com/u/41604595?v=4
+    content: /assets/img/logo-144.png
   - property: og:url
     content: https://leedooho.com/
 ---

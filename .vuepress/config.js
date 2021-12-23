@@ -44,6 +44,17 @@ module.exports = {
 			// 		['/test1/test2/', 'test2'],
 			// 	]
 			// }
+			{
+				title: 'CS', sidebarDepth: 1,	children: [
+					{	title: 'Algorithm',	path: '/CS/Algorithm/', sidebarDepth: 2 },
+					{	title: 'APS', path: '/CS/APS/', sidebarDepth: 2	}
+				]
+			},
+			{
+				title: 'AI', sidebarDepth: 1, children: [
+
+				]
+			},
 		],
 	}
 }

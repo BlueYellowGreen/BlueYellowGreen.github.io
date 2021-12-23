@@ -21,6 +21,8 @@ export default {
 </script>
 
 <style>
+::selection { background-color: #20c9968f; }
+
 /* 스크롤이 움직이는 범위 */
 ::-webkit-scrollbar-track {
 	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.25);
