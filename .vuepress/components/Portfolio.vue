@@ -58,7 +58,7 @@
 			<p class="big-header">Certificate</p>
 			<p class="certificate-item">- TensorFlow Developer Certificate</p>
 			<div class="small-text">
-				<span>&nbsp; &nbsp; 2021/10~2024/10</span>
+				<span class="small-text">&nbsp; &nbsp; 2021/10~2024/10</span>
 				<span>&nbsp; &nbsp;</span>
 				<a target="_blank" href="https://www.credential.net/131aff0a-d8b8-4cd8-a7a1-30fd96a6b173#gs.js2w9i">Verify</a>
 			</div>
@@ -160,6 +160,10 @@
 	color: #c4c4c4;
 	margin: 0;
 }
+
+.small-text::selection  { color: black; }
+.middle-text::selection { color: black; }
+
 .middle-text { font-size: 15px; color: #c4c4c4; margin: 0 0 10px 0;}
 .plain-text { margin: 4px 0; }
 .hr-space { margin: 15px 0 15px 0; }

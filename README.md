@@ -1,5 +1,5 @@
 ---
-title: LDH Note
+title: Home
 lang: ko-KR
 sidebarDepth: 1
 
@@ -7,7 +7,7 @@ meta:
   - name: description
     content: IT 학습 내용을 기록하는 공간입니다.
   - property: og:title
-    content: LDH Note
+    content: Home
   - property: og:description
     content: IT 학습 내용을 기록하는 공간입니다.
   - property: og:image
