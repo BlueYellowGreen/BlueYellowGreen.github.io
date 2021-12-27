@@ -12,6 +12,7 @@
   "dependencies": {
     "vuepress": "^1.8.3",
     "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-mathjax": "^1.2.8",
     "vuepress-plugin-sitemap": "^2.3.1"
   }
 }

@@ -20,6 +20,14 @@ module.exports = {
 	plugins: [
 		["sitemap", { hostname: "https://leedooho.com/"	}],
 		["vuepress-plugin-code-copy"],
+		["vuepress-plugin-mathjax",
+			{
+				target: 'svg',
+				macros: {
+					'*': '\\times',
+				}
+			}
+		]
 	],
 
 	themeConfig: {
@@ -29,6 +37,7 @@ module.exports = {
 		// 오른쪽 상단 NavBar Link
 		nav: [
 			{ text: "Home", link: "/" },
+			{ text: "Portfolio", link: "/Portfolio/" },
 		],
 
 		// 부드러운 스크롤 사용
@@ -45,14 +54,23 @@ module.exports = {
 			// 	]
 			// }
 			{
-				title: 'CS', sidebarDepth: 1,	children: [
-					{	title: 'Algorithm',	path: '/CS/Algorithm/', sidebarDepth: 2 },
-					{	title: 'APS', path: '/CS/APS/', sidebarDepth: 2	}
+				title: 'CS', children: [
+					{	title: 'Algorithm',	path: '/CS/Algorithm/' },
+					{	title: 'APS', path: '/CS/APS/'	}
 				]
 			},
 			{
-				title: 'AI', sidebarDepth: 1, children: [
+				title: 'AI', children: [
 
+				]
+			},
+			{
+				title: 'Blockchain', children: [
+					{
+						title: 'Web 3.0 (PFP)', path: '/Blockchain/Web/', children: [
+							{ title: 'Metamask 로그인', path: '/Blockchain/Web/Metamask-Login/' },
+						]
+					},
 				]
 			},
 		],
