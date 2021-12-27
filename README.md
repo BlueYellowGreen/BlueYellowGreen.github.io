@@ -1,7 +1,6 @@
 ---
 title: Home
 lang: ko-KR
-sidebarDepth: 1
 
 meta:
   - name: description
