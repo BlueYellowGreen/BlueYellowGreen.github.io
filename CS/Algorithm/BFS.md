@@ -1,7 +1,6 @@
 ---
 title: BFS
 lang: ko-KR
-sidebarDepth: 3
 
 meta:
   - name: description

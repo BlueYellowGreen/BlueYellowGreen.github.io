@@ -1,7 +1,6 @@
 ---
 title: Algorithm
 lang: ko-KR
-sidebarDepth: 2
 
 meta:
   - name: description
