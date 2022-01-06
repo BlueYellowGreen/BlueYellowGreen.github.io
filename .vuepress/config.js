@@ -67,6 +67,11 @@ module.exports = {
 			{
 				title: 'Blockchain', children: [
 					{
+						title: 'BApp', path: '/Blockchain/BApp/', children: [
+							{ title: 'About Blockchain', path:'/Blockchain/BApp/About-Blockchain/' },
+						]
+					},
+					{
 						title: 'Web 3.0 (PFP)', path: '/Blockchain/Web/', children: [
 							{ title: 'Metamask 로그인', path: '/Blockchain/Web/Metamask-Login/' },
 						]
