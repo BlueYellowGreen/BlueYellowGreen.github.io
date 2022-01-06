@@ -138,7 +138,7 @@
 
 		<p class="big-header">프로젝트 이력</p>
 		<br>
-		<div class="project-item">
+		<div @click="go('URLS')" class="project-item">
 			<div class="container">
 				<div class="project-col-left">
 					<p class="project-title">
@@ -202,13 +202,20 @@
 
 				</div>
 			</div>
-			<div class="project-content">
-				<p>유익한 글을 북마크하거나 개인 SNS에 저장해두지만, 시간이 지나면 잊어버리곤 합니다.</p>
-				<p>그래서 <span class="green-word">효과적</span>으로 <span class="green-word">URL을 관리</span>하자는 목표로 개발하게 되었습니다.</p>
-				<p>URL을 복사해서 붙여넣으면 <span class="green-word">태그 추천</span>을 해주고, 카테고리를 선택하면 DB에 저장된</p>
-				<p>URL과의 유사도를 계산하여 <span class="green-word">새로운 URL을 추천</span>해줍니다.</p>
-				<p>또한 <span class="green-word">유저를 초대</span>하여 팀 단위로 URL을 관리할 수 있는 기능도 제공합니다.</p>
-				<p class="project-tags">#koNLPy #PyTorch #FastAPI #Vue3 #MongoDB #Open-Graph</p>
+			<div class="container">
+				<div class="project-content-col-left">
+					<div class="project-content">
+						<p>유익한 글을 북마크하거나 개인 SNS에 저장해두지만, 시간이 지나면 잊어버리곤 합니다.</p>
+						<p>그래서 <span class="green-word">효과적</span>으로 <span class="green-word">URL을 관리</span>하자는 목표로 개발하게 되었습니다.</p>
+						<p>URL을 복사해서 붙여넣으면 <span class="green-word">태그 추천</span>을 해주고, 카테고리를 선택하면 DB에 저장된</p>
+						<p>URL과의 유사도를 계산하여 <span class="green-word">새로운 URL을 추천</span>해줍니다.</p>
+						<p>또한 <span class="green-word">유저를 초대</span>하여 팀 단위로 URL을 관리할 수 있는 기능도 제공합니다.</p>
+						<p class="project-tags">#koNLPy #PyTorch #FastAPI #Vue3 #MongoDB #Open-Graph</p>
+					</div>
+				</div>
+				<span class="project-content-col-right">
+					<i class="fas fa-chevron-right svg-middle"></i>
+				</span>
 			</div>
 		</div>
 
@@ -216,7 +223,7 @@
 		<hr>
 		<br>
 
-		<div class="project-item">
+		<div @click="go('HOMEFARMT')" class="project-item">
 			<div class="container">
 				<div class="project-col-left">
 					<p class="project-title">
@@ -269,13 +276,21 @@
 
 				</div>
 			</div>
-			<div class="project-content">
-				<p>농촌에서 <span class="green-word">스마트팜</span> 도입으로 인한 어려움을 극복하기 위해 나온 서비스입니다.</p>
-				<p>언택트 상황 속에서, 팀원간의 협업을 위해 Unity 속 시뮬레이터에서 작동합니다.</p>
-				<p>대상 IoT는 <span class="green-word">카메라</span>와 <span class="green-word">라이다</span>가 부착된 <span class="green-word">터틀봇</span>입니다.</p>
-				<p>터틀봇이 작물과 잡초를 <span class="green-word">객체 탐지</span>로 구분하고, A*및 다익스트라 알고리즘으로 <span class="green-word">자율주행</span>합니다.</p>
-				<p>잡초제거, 침입자 감시, 감시 경로 설정, CCTV 기능이 있습니다.</p>
-				<p class="project-tags">#GCP #TensorFlow #Jenkins #OpenCV</p>
+			<div class="container">
+				<div class="project-content-col-left">
+					<div class="project-content">
+						<p>농촌에서 <span class="green-word">스마트팜</span> 도입으로 인한 어려움을 극복하기 위해 나온 서비스입니다.</p>
+						<p>언택트 상황 속에서, 팀원간의 협업을 위해 Unity 속 시뮬레이터에서 작동합니다.</p>
+						<p>대상 IoT는 <span class="green-word">카메라</span>와 <span class="green-word">라이다</span>가 부착된 <span class="green-word">터틀봇</span>입니다.</p>
+						<p>터틀봇이 작물과 잡초를 <span class="green-word">객체 탐지</span>로 구분하고,</p>
+						<p>A* 및 다익스트라 알고리즘으로 <span class="green-word">자율주행</span>합니다.</p>
+						<p>잡초제거, 침입자 감시, 감시 경로 설정, CCTV 기능이 있습니다.</p>
+						<p class="project-tags">#GCP #TensorFlow #Jenkins #OpenCV</p>
+					</div>
+				</div>
+				<span class="project-content-col-right">
+					<i class="fas fa-chevron-right svg-middle"></i>
+				</span>
 			</div>
 		</div>
 
@@ -283,11 +298,11 @@
 		<hr>
 		<br>
 
-		<div class="project-item">
+		<div @click="go('PIPL')" class="project-item">
 			<div class="container">
 				<div class="project-col-left">
 					<p class="project-title">
-						<span>Piple</span>
+						<span>Pipl</span>
 						<span class="project-date">&nbsp; &nbsp; 2021/08/23 ~ 2021/10/08</span>
 					</p>
 					<p class="project-sub-title">(Pick a plan; 쉽게 약속을 잡도록 도와주는 GPS 기반 SNS)</p>
@@ -323,16 +338,44 @@
 					</div>
 				</div>
 			</div>
-			<div class="project-content">
-				<p>기존에는 약속을 잡기 위해서 한 명 한 명에게 연락했어야 했습니다.</p>
-				<p>그래서 보다 <span class="green-word">간편하게 약속</span>을 잡을 수 있도록 서비스를 개발하게 되었습니다.</p>
-				<p>팔로잉, 팔로워들에게 <span class="green-word">일괄적으로 약속 초대</span>를 보냅니다.</p>
-				<p>수락한 사람들은 약속 한 시간 전부터 <span class="green-word">위치가 공유</span>됩니다.</p>
-				<p class="project-tags">#Vue2 #BootstrapVue #kakao_map</p>
+			<div class="container">
+				<div class="project-content-col-left">
+					<div class="project-content">
+						<p>기존에는 약속을 잡기 위해서 한 명 한 명에게 연락했어야 했습니다.</p>
+						<p>그래서 보다 <span class="green-word">간편하게 약속</span>을 잡을 수 있도록 서비스를 개발하게 되었습니다.</p>
+						<p>팔로잉, 팔로워들에게 <span class="green-word">일괄적으로 약속 초대</span>를 보냅니다.</p>
+						<p>수락한 사람들은 약속 한 시간 전부터 <span class="green-word">위치가 공유</span>됩니다.</p>
+						<p class="project-tags">#Vue2 #BootstrapVue #kakao_map</p>
+					</div>
+				</div>
+				<span class="project-content-col-right">
+					<i class="fas fa-chevron-right svg-middle"></i>
+				</span>
 			</div>
 		</div>
+
+		<br>
+		<br>
+		<br>
+
 	</div>
 </template>
+
+<script>
+export default {
+	mounted() {
+		let recaptchaScript = document.createElement('script')
+		recaptchaScript.setAttribute('src', 'https://kit.fontawesome.com/94956ab36d.js')
+		recaptchaScript.setAttribute('crossorigin', 'anonymous')
+		document.head.appendChild(recaptchaScript)
+	},
+	methods: {
+		go(path) {
+			this.$router.push(`/Portfolio/${path}.html`)
+		}
+	}
+}
+</script>
 
 <style scoped>
 [data-tooltip] {
@@ -372,11 +415,15 @@
 .res-col-right { width: 51%; right: 0; }
 .project-col-left  { width: 75%; }
 .project-col-right { width: 23%; }
+.project-content-col-left { width: 90%; }
+.project-content-col-right { width: 10%; }
 @media all and (max-width: 600px) {
-	.res-col-left, .res-col-right, .project-col-left { width: 100%; }
+	.res-col-left, .res-col-right, .project-col-left, .project-content-col-left { width: 100%; }
 	.project-col-right { width: 0; display: none; }
+	.project-content-col-right { width: 0; display: none; }
 	.container { display: block; }
 }
+.svg-middle { position: relative; top: calc(50% - 50px); left: calc(55%); }
 
 /* for title & content */
 .big-header { font-size: 25px; margin: 30px 0 10px 0; }
