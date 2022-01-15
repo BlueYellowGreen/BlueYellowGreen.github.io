@@ -68,7 +68,7 @@ module.exports = {
 				title: 'Blockchain', children: [
 					{
 						title: 'BApp', path: '/Blockchain/BApp/', children: [
-							{ title: 'About Blockchain', path:'/Blockchain/BApp/About-Blockchain/' },
+							{ title: 'Smart Contract & Solidity', path:'/Blockchain/BApp/Smart-Contract-and-Solidity/' },
 						]
 					},
 					{
