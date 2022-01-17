@@ -61,7 +61,9 @@ module.exports = {
 			},
 			{
 				title: 'AI', children: [
-
+					{
+						title: 'Boostcamp AI Tech', path: '/AI/Boostcamp-AI-Tech/'
+					}
 				]
 			},
 			{
