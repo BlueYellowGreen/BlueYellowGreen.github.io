@@ -16,7 +16,7 @@
 export default {
   data() {
     return {
-      firstWeek: ["0117", "0118", "0119"]
+      firstWeek: ["0117", "0118", "0119", "0120"]
     }
   },
   methods: {
