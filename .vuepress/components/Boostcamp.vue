@@ -9,6 +9,34 @@
     >
       {{ day }}
     </span>
+
+    <table>
+      <thead>
+        <tr>
+          <td>주제1</td>
+          <td>주제2</td>
+          <td>주제3</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>내용1</td>
+          <td>내용2</td>
+          <td>내용3</td>
+        </tr>
+        <tr>
+          <td>내용1</td>
+          <td>내용2</td>
+          <td>내용3</td>
+        </tr>
+        <tr>
+          <td>내용1</td>
+          <td>내용2</td>
+          <td>내용3</td>
+        </tr>
+      </tbody>
+    </table>
+
   </div>
 </template>
 
@@ -16,7 +44,7 @@
 export default {
   data() {
     return {
-      firstWeek: ["0117", "0118", "0119", "0120"]
+      firstWeek: ["0117", "0118", "0119", "0120", "0121"]
     }
   },
   methods: {
@@ -29,6 +57,18 @@ export default {
 
 <style scoped>
 hr { margin-bottom: 20px; }
+
+table { display: table; width: 100%; text-align: center; }
+thead tr { background-color: #3eaf7c; font-weight: bold; }
+tbody tr { background-color: #f0f0f0; }
+tr { border: 0; }
+td { border: 0; }
+tbody tr:hover { 
+  cursor: pointer;
+  background-color: rgba(62, 175, 124, .4);
+  transition-duration: .25s;
+}
+
 
 .badge {
   text-decoration: none !important;
