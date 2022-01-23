@@ -15,6 +15,7 @@
           <td>{{ day[0] }}</td>
           <td>
             <span
+              class="badge"
               v-for="(tag, i) in day[1]"
               :key="day[0]+i+'tag'">
               {{ tag }}&nbsp; &nbsp;
@@ -32,7 +33,7 @@ export default {
   data() {
     return {
       til: [
-        [ "0121", [] ],
+        [ "0121", ["조건부확률", "베이즈정리", "기대값", "중심극한정리", "MLE", "쿨백-라이블러"] ],
         [ "0120", ["vector", "norm", "matrix", "gradient_descent", "SGD"] ],
         [ "0119", ["numpy", "empty", "pandas", "groupby"] ],
         [ "0118", ["python", "tuple", "dictionary", "%timeit", "reduce", "generator", "decorator", "pathlib", "pickle", "argparser"] ],
@@ -58,6 +59,12 @@ td { border: 0; }
 tbody tr:hover { 
   cursor: pointer;
   background-color: rgba(62, 175, 124, .4);
+  transition-duration: .25s;
+}
+
+.badge:hover {
+  color: #2454ff;
+  font-weight: bold;
   transition-duration: .25s;
 }
 </style>
