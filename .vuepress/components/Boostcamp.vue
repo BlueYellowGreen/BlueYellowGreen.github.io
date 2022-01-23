@@ -1,38 +1,25 @@
 <template>
   <div>
-    <p>2022/01/17 ~ 01/21</p>
-    <hr>
-    <span
-      class="badge"
-      v-for="(day, idx) in firstWeek" :key="idx+'first'"
-      @click="go(day)"
-    >
-      {{ day }}
-    </span>
+
+    <br>
 
     <table>
       <thead>
-        <tr>
-          <td>주제1</td>
-          <td>주제2</td>
-          <td>주제3</td>
-        </tr>
+        <tr><td>Date</td><td>Tags</td></tr>
       </thead>
       <tbody>
-        <tr>
-          <td>내용1</td>
-          <td>내용2</td>
-          <td>내용3</td>
-        </tr>
-        <tr>
-          <td>내용1</td>
-          <td>내용2</td>
-          <td>내용3</td>
-        </tr>
-        <tr>
-          <td>내용1</td>
-          <td>내용2</td>
-          <td>내용3</td>
+        <tr
+          v-for="(day, idx) in til"
+          :key="idx+'summary'"
+          @click="go(day[0])">
+          <td>{{ day[0] }}</td>
+          <td>
+            <span
+              v-for="(tag, i) in day[1]"
+              :key="day[0]+i+'tag'">
+              {{ tag }}&nbsp; &nbsp;
+            </span>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -44,7 +31,13 @@
 export default {
   data() {
     return {
-      firstWeek: ["0117", "0118", "0119", "0120", "0121"]
+      til: [
+        [ "0121", [] ],
+        [ "0120", ["vector", "norm", "matrix", "gradient_descent", "SGD"] ],
+        [ "0119", ["numpy", "empty", "pandas", "groupby"] ],
+        [ "0118", ["python", "tuple", "dictionary", "%timeit", "reduce", "generator", "decorator", "pathlib", "pickle", "argparser"] ],
+        [ "0117", ["python", "call_by_object_reference", "object_memory"] ],
+      ]
     }
   },
   methods: {
@@ -56,32 +49,15 @@ export default {
 </script>
 
 <style scoped>
-hr { margin-bottom: 20px; }
-
-table { display: table; width: 100%; text-align: center; }
-thead tr { background-color: #3eaf7c; font-weight: bold; }
+table { display: table; width: 100%; }
+thead tr { background-color: #3eaf7c; font-weight: bold; text-align: center; }
 tbody tr { background-color: #f0f0f0; }
+tbody tr td:first-child { text-align: center; }
 tr { border: 0; }
 td { border: 0; }
 tbody tr:hover { 
   cursor: pointer;
   background-color: rgba(62, 175, 124, .4);
   transition-duration: .25s;
-}
-
-
-.badge {
-  text-decoration: none !important;
-  border: none;
-  border-radius: 5px;
-  background-color: #3eaf7c;
-  color: white;
-  padding: 2px 10px 4px;
-  margin: 0 7px 0 0;
-}
-.badge:hover {
-  cursor: pointer;
-  box-shadow: 0 0 3px 2px rgba(62, 175, 124, .25);
-  transition-duration: .2s;
 }
 </style>
