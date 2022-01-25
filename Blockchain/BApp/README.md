@@ -71,7 +71,7 @@ Klaytn은 블록체인의 대중화를 목표로, 블록체인을 쉽게 활용�
 <br>
 
 
-<style>
+<style scoped>
   table { display: table; width: 100%; }
   td { text-align: center; background-color: white; }
 </style>
