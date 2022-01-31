@@ -33,7 +33,9 @@ export default {
   data() {
     return {
       til: [
-        [ "0126", [""] ],
+        [ "0128", [""] ],
+        [ "0127", [""] ],
+        [ "0126", ["Save & Load", "Transfer_learning", "Monitoring"] ],
         [ "0125", ["Module", "Parameter", "AutoGrad", "Dataset", "DataLoader", "HuggingFace", "Albumentations"] ],
         [ "0124", ["DCG", "Tensor", "AutoGrad", "Colab_VSCode"] ],
         [ "0121", ["조건부확률", "베이즈정리", "기대값", "중심극한정리", "MLE", "쿨백-라이블러"] ],
