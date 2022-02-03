@@ -34,7 +34,7 @@ export default {
     return {
       til: [
         [ "0128", [""] ],
-        [ "0127", [""] ],
+        [ "0127", ["Multi-GPU", "Hyperparameter_Tuning", "Troubleshooting"] ],
         [ "0126", ["Save & Load", "Transfer_learning", "Monitoring"] ],
         [ "0125", ["Module", "Parameter", "AutoGrad", "Dataset", "DataLoader", "HuggingFace", "Albumentations"] ],
         [ "0124", ["DCG", "Tensor", "AutoGrad", "Colab_VSCode"] ],
