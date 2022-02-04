@@ -33,7 +33,9 @@ export default {
   data() {
     return {
       til: [
-        [ "0128", [""] ],
+        [ "0204", ["Text", "Color", "Facet", "Seaborn"] ],
+        [ "0203", ["Matplotlib", "Bar Plot", "Line Plot", "Scatter Plot"] ],
+        // [ "0128", [""] ],
         [ "0127", ["Multi-GPU", "Hyperparameter_Tuning", "Troubleshooting"] ],
         [ "0126", ["Save & Load", "Transfer_learning", "Monitoring"] ],
         [ "0125", ["Module", "Parameter", "AutoGrad", "Dataset", "DataLoader", "HuggingFace", "Albumentations"] ],
