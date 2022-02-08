@@ -33,6 +33,7 @@ export default {
   data() {
     return {
       til: [
+        [ "0208", [""] ],
         [ "0207", ["Deep Learning", "Optimization", "Gradient Descent Methods", "Regularization"] ],
         [ "0204", ["Text", "Color", "Facet", "Seaborn"] ],
         [ "0203", ["Matplotlib", "Bar Plot", "Line Plot", "Scatter Plot"] ],
