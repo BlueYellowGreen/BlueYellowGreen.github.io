@@ -33,7 +33,8 @@ export default {
   data() {
     return {
       til: [
-        [ "0209", ["Transformer", "GAN"] ],
+        [ "0210", [""] ],
+        [ "0209", ["transformer", "Generative Model"] ],
         [ "0208", ["Convolution", "1x1 Convolution", "Semantic Segmentation", "Object Detectoin", "RNN", "LSTM", "GRU"] ],
         [ "0207", ["Deep Learning", "Optimization", "Gradient Descent Methods", "Regularization"] ],
         [ "0204", ["Text", "Color", "Facet", "Seaborn"] ],
