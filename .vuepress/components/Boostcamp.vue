@@ -33,6 +33,7 @@ export default {
   data() {
     return {
       til: [
+        [ "0211", ["Polar Coordinate", "Pie Charts", "missingno", "squarify", "PyWaffle"] ],
         [ "0210", [""] ],
         [ "0209", ["transformer", "Generative Model"] ],
         [ "0208", ["Convolution", "1x1 Convolution", "Semantic Segmentation", "Object Detectoin", "RNN", "LSTM", "GRU"] ],
