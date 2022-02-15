@@ -33,6 +33,7 @@ export default {
   data() {
     return {
       til: [
+        [ "0215", ["MLflow", "서비스 모델 개발", "저작권"] ],
         [ "0214", ["머신러닝 프로젝트 Flow", "Linux", "Shell Command", "Docker"] ],
         [ "0211", ["Polar Coordinate", "Pie Charts", "missingno", "squarify", "PyWaffle", "pyvenn"] ],
         [ "0210", ["Generative Model"] ],
