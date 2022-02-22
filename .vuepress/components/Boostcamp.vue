@@ -33,6 +33,7 @@ export default {
   data() {
     return {
       til: [
+        [ "0222", ["대회 D-9", "baseline"] ],
         [ "0221", ["EDA", "대회 D-10"] ],
         [ "0218", ["Docker 로 MLflow 사용해보기"] ],
         [ "0215", ["MLflow", "서비스 모델 개발", "저작권"] ],
