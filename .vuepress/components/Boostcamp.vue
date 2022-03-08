@@ -33,7 +33,7 @@ export default {
   data() {
     return {
       til: [
-        [ "0308", [""] ],
+        [ "0308", ["RNN", "LSTM", "GRU"] ],
         [ "0307", ["Bag of Words", "Word2Vec", "GloVe"] ],
         [ "0222", ["baseline"] ],
         [ "0221", ["EDA"] ],
